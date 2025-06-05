@@ -86,25 +86,6 @@ Install the required Python libraries using:
 pip install tensorflow opencv-python pandas numpy scikit-learn
 ```
 
-
----
-
-### Model Details
-
-```markdown
-### Model Details
-
-| Attribute       | Description                                      |
-|----------------|--------------------------------------------------|
-| **Input Size**  | 224x224 pixels (resized using OpenCV)           |
-| **Classes**     | PB = 0 (Benign), PM = 1 (Malignant)             |
-| **Architecture**| Conv2D → ReLU → MaxPooling → Flatten → Dense   |
-| **Loss Function** | Binary Crossentropy                          |
-| **Optimizer**   | Adam                                            |
-| **Evaluation**  | Accuracy (on test set using `train_test_split`)|
-| **Augmentation**| Not used (but can be added for better results) |
-| **Model Save**  | Optional: can save model using `model.save()`   |
-
 ---
 
 ### **Author**  
