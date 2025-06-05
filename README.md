@@ -1,5 +1,3 @@
-# ZIP File Extractor Tool
-
 # Breast Cancer Classification using CNN
 
 ![Python](https://img.shields.io/badge/Python-3.6+-blue?logo=python)
